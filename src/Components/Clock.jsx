@@ -1,6 +1,7 @@
-import React, { Component} from 'react'
+import React, { Component} from "react";
 
 class Clock extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -21,8 +22,17 @@ class Clock extends Component {
   }
 
   render() {
-    return <div>Clock</div>;
+    return(
+    <>
+      <div className="clock">
+        <div className="hour_hand"
+          style={{transform : `rotateZ(${this.state.time.getHours() *30}deg)`}}>
+        </div>
+             
+    </div>
+    </>
+    );
   }
 }
 
-export default Clock
+export default Clock;

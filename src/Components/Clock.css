@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+.App {
+  font-family: sans-serif;
+}
+
+.clock {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  color: #444;
+  text-align: center;
+}
+
+.hour_hand {
+  position: absolute;
+  width: 6px;
+  height: 60px;
+  background: #222;
+  top: 30%;
+  left: 49%;
+  transform-origin: bottom;
+}
