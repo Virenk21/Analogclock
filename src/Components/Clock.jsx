@@ -28,6 +28,14 @@ class Clock extends Component {
         <div className="hour_hand"
           style={{transform : `rotateZ(${this.state.time.getHours() *30}deg)`}}>
         </div>
+
+        <div className="min_hand"
+          style={{transform : `rotateZ(${this.state.time.getHours() *6}deg)`}}>
+        </div>
+
+         <div className="sec_hand"
+          style={{transform : `rotateZ(${this.state.time.getHours() *6}deg)`}}>
+        </div>
              
     </div>
     </>

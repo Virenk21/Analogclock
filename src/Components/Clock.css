@@ -27,3 +27,22 @@
   left: 49%;
   transform-origin: bottom;
 }
+.min_hand {
+  position: absolute;
+  width: 4px;
+  height: 80px;
+  background: #444;
+  top: 22.5%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.sec_hand {
+  position: absolute;
+  width: 2px;
+  height: 118px;
+  background: red;
+  top: 10.5%;
+  left: 50%;
+  transform-origin: bottom;
+}
