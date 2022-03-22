@@ -7,6 +7,7 @@ function App() {
     <>
       <div className="container">
         <Clock />
+        <index />
       </div>
     </>
   );

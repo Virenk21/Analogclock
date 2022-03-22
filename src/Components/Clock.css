@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
 
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #090909;
+    background: #07141b;
+}
+
 .App {
   font-family: sans-serif;
 }
