@@ -24,7 +24,7 @@ class Clock extends Component {
   render() {
     return(
     <>
-      <div className="clock">
+          <div className="clock">
         <div className="hour_hand"
           style={{transform : `rotateZ(${this.state.time.getHours() *30}deg)`}}>
         </div>
@@ -51,7 +51,7 @@ class Clock extends Component {
         <span className="eleven">11</span>
         
     </div>
-    </>
+       </>
     );
   }
 }
